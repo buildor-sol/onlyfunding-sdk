@@ -302,7 +302,7 @@ Funding rates data provided by <a href="https://onlyfunding.fun">onlyfunding.fun
 - **Website:** [https://onlyfunding.fun](https://onlyfunding.fun)
 - **API Documentation:** [https://onlyfunding.fun/api-docs](https://onlyfunding.fun/api-docs)
 - **Twitter:** [@onlyfunding_fun](https://x.com/onlyfunding_fun)
-- **GitHub:** [https://github.com/onlyfunding/onlyfunding-sdk](https://github.com/onlyfunding/onlyfunding-sdk)
+
 
 ## License
 
