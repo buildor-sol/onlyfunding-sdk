@@ -1,0 +1,21 @@
+[package]
+name = "onlyfunding-sdk"
+version = "1.0.0"
+edition = "2021"
+description = "Official Rust SDK for onlyfunding.fun funding rates API"
+license = "MIT"
+authors = ["onlyfunding <support@onlyfunding.fun>"]
+repository = "https://github.com/onlyfunding/onlyfunding-sdk"
+homepage = "https://onlyfunding.fun"
+documentation = "https://docs.onlyfunding.fun"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+reqwest = { version = "0.11", features = ["json"] }
+tokio = { version = "1.0", features = ["full"] }
+thiserror = "1.0"
+
+[dev-dependencies]
+tokio-test = "0.4"
+

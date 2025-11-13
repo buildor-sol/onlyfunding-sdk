@@ -1,0 +1,38 @@
+{
+  "name": "@onlyfunding/sdk",
+  "version": "1.0.0",
+  "description": "Official TypeScript/JavaScript SDK for onlyfunding.fun funding rates API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "onlyfunding",
+    "funding-rates",
+    "crypto",
+    "arbitrage",
+    "api",
+    "sdk"
+  ],
+  "author": "onlyfunding",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/onlyfunding/onlyfunding-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/onlyfunding/onlyfunding-sdk/issues"
+  },
+  "homepage": "https://onlyfunding.fun",
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "typescript": "^4.9.0"
+  },
+  "files": [
+    "dist"
+  ]
+}
+
